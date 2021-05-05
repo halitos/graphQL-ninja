@@ -1,7 +1,6 @@
 const express = require("express");
 const { graphqlHTTP } = require("express-graphql");
 const schema = require("./schema/schema");
-// const schema = require("./")
 
 const app = express();
 const PORT = process.env.PORT || 4000;
